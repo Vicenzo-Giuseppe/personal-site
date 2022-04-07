@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "blitz dev",
-    "build": "blitz build & blitz prisma migrate dev",
+    "build": "blitz build ",
     "start": "blitz start -H 0.0.0.0 -p 8080",
     "studio": "blitz prisma studio",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
-    "test": "jest ",
+    "test": " ",
     "test:watch": "jest --watch",
     "prepare": "husky install"
   },
